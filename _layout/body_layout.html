@@ -1,0 +1,37 @@
+<body class="layout--single">
+  {{ insert masthead.html }}
+  <div class="initial-content">
+    <div id="main" role="main">
+      <div class="sidebar sticky">
+        <div itemscope itemtype="https://schema.org/Person">
+          <div class="author__avatar">
+            <img src="/assets/photo.png" alt="Muhammad Saud Zahir" itemprop="image">
+          </div>
+          <div class="author__content">
+            <h3 class="author__name" itemprop="name">Muhammad Saud Zahir</h3>
+            <p class="author__bio" itemprop="description">
+              Electrical Engineering student with focus on control systems,<br>
+              signal processing, ML/DL, and optimization.
+            </p>
+          </div>
+          <div class="author__urls-wrapper">
+            <button class="btn btn--inverse">Follow</button>
+            <ul class="author__urls social-icons">
+              <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+                <i class="fas fa-fw fa-map-marker-alt" style="color:black" aria-hidden="true"></i>
+                <span itemprop="name">Multan, Pakistan</span>
+              </li>
+              <li>
+                <a href="https://github.com/saudzahirr" rel="nofollow noopener noreferrer">
+                  <i class="fab fa-fw fa-github-square" style="color:black" aria-hidden="true"></i> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/saudzahirr/" rel="nofollow noopener noreferrer">
+                  <i class="fab fa-fw fa-linkedin" style="color:black" aria-hidden="true"></i> LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
