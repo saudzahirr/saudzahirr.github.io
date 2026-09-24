@@ -178,15 +178,75 @@ main {
   padding-bottom: 4rem;
 }
 
+/* Footer: the banner's green and ribbon, mirrored */
+
 .site-footer {
-  border-top: 1px solid var(--rule);
-  color: var(--muted);
-  font-size: 0.8125rem;
+  background-color: var(--green);
+  border-top: 5px solid var(--gold);
+  border-image: linear-gradient(90deg, var(--leaf) 0 33.34%, var(--sky) 33.34% 66.67%, var(--gold) 66.67% 100%) 1;
+  color: #ffffff;
+  font-size: 0.875rem;
 }
 
 .site-footer .wrap {
-  padding-top: 1.25rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.footer-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2.5rem;
+  margin-top: 1rem;
+}
+
+.footer-logos a {
+  display: block;
+}
+
+.footer-logos img {
+  display: block;
+  width: auto;
+}
+
+.footer-ece {
+  height: 3.5rem;
+}
+
+.footer-csu {
+  height: 3rem;
+}
+
+.footer-links {
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.9;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #ffffff;
+  outline-color: var(--gold);
+}
+
+.footer-copy {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.8125rem;
 }
 
 /* Entries: a left rail (years, issuer mark or group name), the text, and an institution mark */
