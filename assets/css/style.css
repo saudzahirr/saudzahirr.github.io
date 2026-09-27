@@ -204,8 +204,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1rem 2.5rem;
-  margin-top: 1rem;
+  gap: 1.25rem 2.5rem;
+  margin-top: 1.25rem;
 }
 
 .footer-logos a {
@@ -217,8 +217,10 @@ main {
   width: auto;
 }
 
-.footer-ece {
-  height: 3.5rem;
+/* College lockup: its background is the footer green, and it stays a ram-face width clear of the wordmark */
+
+.footer-college {
+  height: 6rem;
 }
 
 .footer-csu {
